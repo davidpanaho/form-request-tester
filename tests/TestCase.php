@@ -1,9 +1,9 @@
 <?php
 
-namespace MohammedManssour\FormRequestTester\Tests;
+namespace Talkative\FormRequestTester\Tests;
 
 use Orchestra\Testbench\TestCase as BaseTestCase;
-use MohammedManssour\FormRequestTester\Tests\Stubs\ServiceProviders\RouteServiceProvider;
+use Talkative\FormRequestTester\Tests\Stubs\ServiceProviders\RouteServiceProvider;
 
 class TestCase extends BaseTestCase
 {

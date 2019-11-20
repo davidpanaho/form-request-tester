@@ -1,7 +1,7 @@
 <?php
 
 use Faker\Generator as Faker;
-use MohammedManssour\FormRequestTester\Tests\Stubs\Models\User;
+use Talkative\FormRequestTester\Tests\Stubs\Models\User;
 
 /*
 |--------------------------------------------------------------------------

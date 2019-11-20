@@ -1,8 +1,8 @@
 <?php
-namespace MohammedManssour\FormRequestTester\Tests\Stubs\FormRequests;
+namespace Talkative\FormRequestTester\Tests\Stubs\FormRequests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use MohammedManssour\FormRequestTester\Tests\Stubs\Models\Post;
+use Talkative\FormRequestTester\Tests\Stubs\Models\Post;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class UpdatePost extends FormRequest
@@ -10,7 +10,7 @@ class UpdatePost extends FormRequest
     /**
      * post to be updated
      *
-     * @var \MohammedManssour\FormRequestTester\Tests\Stubs\Models\Post
+     * @var \Talkative\FormRequestTester\Tests\Stubs\Models\Post
      */
     public $model;
 

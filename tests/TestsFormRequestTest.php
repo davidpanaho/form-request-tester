@@ -1,12 +1,12 @@
 <?php
 
-namespace MohammedManssour\FormRequestTester\Tests;
+namespace Talkative\FormRequestTester\Tests;
 
 use Illuminate\Foundation\Testing\DatabaseMigrations;
-use MohammedManssour\FormRequestTester\TestsFormRequests;
-use MohammedManssour\FormRequestTester\Tests\Stubs\Models\Post;
-use MohammedManssour\FormRequestTester\Tests\Stubs\Models\User;
-use MohammedManssour\FormRequestTester\Tests\Stubs\FormRequests\UpdatePost;
+use Talkative\FormRequestTester\TestsFormRequests;
+use Talkative\FormRequestTester\Tests\Stubs\Models\Post;
+use Talkative\FormRequestTester\Tests\Stubs\Models\User;
+use Talkative\FormRequestTester\Tests\Stubs\FormRequests\UpdatePost;
 
 class TestsFormRequestTest extends TestCase
 {

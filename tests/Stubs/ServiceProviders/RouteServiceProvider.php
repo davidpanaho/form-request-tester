@@ -1,6 +1,6 @@
 <?php
 
-namespace MohammedManssour\FormRequestTester\Tests\Stubs\ServiceProviders;
+namespace Talkative\FormRequestTester\Tests\Stubs\ServiceProviders;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;

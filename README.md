@@ -10,11 +10,9 @@ for full story on why this package was built please refer to [This Blog Post](ht
 
 1. Using composer
 
-```
-composer require --dev mohammedmanssour/form-request-tester
-```
+Install from git branch `master`
 
-2. add `MohammedManssour\FormRequestTester\TestsFormRequests` trait to your test case.
+2. add `Talkative\FormRequestTester\TestsFormRequests` trait to your test case.
 
 ## Testing a form request
 

@@ -1,6 +1,6 @@
 {
-  "name": "mohammedmanssour/form-request-tester",
-  "version": "0.1.0",
+  "name": "talkative/form-request-tester",
+  "version": "0.1.1",
   "description": "a collection of test helpers that help test form requests",
   "license": "MIT",
   "authors": [
@@ -8,16 +8,21 @@
       "name": "Mohammed Manssour",
       "email": "manssour.mohammed@gmail.com",
       "homepage": "https://mohammedmanssour.me"
+    },
+    {
+      "name": "Jakub Srsen",
+      "email": "jsrsen@gettalkative.uk",
+      "homepage": "https://talkative.uk"
     }
   ],
   "autoload": {
     "psr-4": {
-      "MohammedManssour\\FormRequestTester\\": "src/"
+      "Talkative\\FormRequestTester\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "MohammedManssour\\FormRequestTester\\Tests\\": "tests/"
+      "Talkative\\FormRequestTester\\Tests\\": "tests/"
     }
   },
   "require-dev": {

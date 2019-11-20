@@ -1,8 +1,8 @@
 <?php
 
 use Faker\Generator as Faker;
-use MohammedManssour\FormRequestTester\Tests\Stubs\Models\Post;
-use MohammedManssour\FormRequestTester\Tests\Stubs\Models\User;
+use Talkative\FormRequestTester\Tests\Stubs\Models\Post;
+use Talkative\FormRequestTester\Tests\Stubs\Models\User;
 
 $factory->define(Post::class, function (Faker $faker) {
     return [

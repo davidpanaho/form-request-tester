@@ -1,6 +1,6 @@
 <?php
 
-namespace MohammedManssour\FormRequestTester;
+namespace Talkative\FormRequestTester;
 
 use \Mockery;
 use Illuminate\Support\Arr;

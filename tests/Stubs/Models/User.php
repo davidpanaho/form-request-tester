@@ -1,6 +1,6 @@
 <?php
 
-namespace MohammedManssour\FormRequestTester\Tests\Stubs\Models;
+namespace Talkative\FormRequestTester\Tests\Stubs\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
