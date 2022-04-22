@@ -133,7 +133,7 @@ trait TestsFormRequests
         }
 
         if (!empty($this->errors)) {
-            Assert::fail('Validation have failed');
+            Assert::fail('Validation have failed with errors: '. json_encode($this->errors));
             return $this;
         }
 
